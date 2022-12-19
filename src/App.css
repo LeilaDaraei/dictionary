@@ -1,0 +1,13 @@
+.App header {
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+.App h1 {
+  font-size: 44px;
+  color: rgb(230, 58, 6);
+}
+.App footer {
+  text-align: center;
+  margin: 30px auto;
+}

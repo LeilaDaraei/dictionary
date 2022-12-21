@@ -10,7 +10,6 @@ export default function App() {
           <h1>Dictionary App</h1>
         </header>
         <main>
-          {" "}
           <Dictionary />
         </main>
         <footer className="text-center">

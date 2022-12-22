@@ -4,7 +4,7 @@ body {
   animation: gradient 10s ease infinite;
   height: 100vh;
   max-width: 960px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 @keyframes gradient {
@@ -34,7 +34,7 @@ body {
 
 .App footer {
   text-align: center;
-  margin: 30px auto;
+  margin: 60px auto;
   color: #673e07;
   font-size: 14px;
 }

@@ -4,7 +4,7 @@
 .Phonetic a {
   text-decoration: none;
   color: rgba(102, 96, 121, 0.894);
-  border: 1px solid rgb(115, 188, 245);
+  border: 1px solid rgb(247, 143, 46);
   border-radius: 10%;
   padding: 5px;
   display: inline-block;
@@ -13,12 +13,13 @@
   font-size: 14px;
 }
 .Phonetic a:hover {
-  background: white;
-  border: 1px solid #fff;
+  background: rgb(247, 143, 46);
+  border: 1px solid rgb(247, 143, 46);
+  color: white;
 }
 .Phonetic .text {
   margin-left: 10px;
-  color: rgb(115, 188, 245);
+  color: rgba(0, 92, 162, 0.661);
   line-height: 1.5;
   font-size: 17px;
 }

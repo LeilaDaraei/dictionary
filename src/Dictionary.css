@@ -1,23 +1,21 @@
 .Dictionary {
   text-align: center;
-  margin: 30px auto;
-}
-.Dictionary {
+  margin: 0 auto;
   text-align: left;
 }
 .Dictionary section {
   background: rgba(254, 254, 254, 0.643);
-  margin: 10px 0;
-  padding: 10px;
+  margin: 15px 0;
+  padding: 10px 25px;
   color: rgba(112, 85, 78, 0.834);
-  border: 1px solid #ddd;
+  border: 1px solid rgb(232, 222, 222);
   border-radius: 6px;
   box-shadow: 0px 10px 10px rgba(0 0 0/ 10%);
 }
-.Dictionary h4 {
-  font-size: 18px;
+.Dictionary h2 {
+  font-size: 36px;
   font-weight: bold;
-  margin-bottom: 20px;
+  line-height: 1.5;
 }
 .Dictionary h3 {
   font-size: 28px;
@@ -25,20 +23,25 @@
   line-height: 2;
   margin-bottom: 20px;
 }
+.Dictionary h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 .Dictionary input {
   width: 100%;
-  padding: 5px;
+  padding: 12px 5px;
   color: rgba(102, 96, 121, 0.894);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 6px;
   border: 1px solid #ddd;
 }
-.Dictionary h2 {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.5;
+.Dictionary input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(227, 128, 57, 0.25);
+  outline: 0;
 }
+
 .Dictionary ul {
   margin: 0;
   padding: 0;

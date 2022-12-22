@@ -37,6 +37,7 @@ export default function Dictionary() {
             <input
               type="search"
               defaultValue={keyword}
+              autoFocus={true}
               onChange={handleKeywordChange}
             />
           </form>{" "}

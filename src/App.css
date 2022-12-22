@@ -23,17 +23,18 @@ body {
   margin: 30px 0;
 }
 .App h1 {
-  border: 1.5px solid rgba(243, 242, 242, 0.959);
+  border: 1.3px solid rgba(255, 255, 255, 0.686);
   border-radius: 8px;
   padding: 12px;
   font-weight: 500;
+  box-shadow: 0px 10px 10px rgba(0 0 0/ 5%);
 }
 .App .linear-wipe {
   --bg-size: 400%;
   --color-one: rgb(199, 80, 40);
   --color-two: rgb(202, 136, 2);
   font-family: sans-serif;
-  font-size: clamp(3rem, 25vmin, 4rem);
+  font-size: clamp(3rem, 25vmin, 3rem);
   text-align: center;
   background: linear-gradient(
       90deg,

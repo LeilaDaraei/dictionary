@@ -1,15 +1,43 @@
 body {
-  background: rgba(175, 228, 226, 0.428);
-  color: rgb(181, 56, 10);
+  background: linear-gradient(-45deg, #e07352, #e0a1a8, #c3d2d7, #eccd06);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  max-width: 960px;
+  margin: 10px auto;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .App header {
   margin: 30px 0;
 }
 .App h1 {
-  font-size: 44px;
-  color: rgb(230, 58, 6);
+  font-size: 48px;
+  color: #ffffffd3;
+  border: 1.5px solid rgba(243, 242, 242, 0.691);
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
 }
 .App footer {
   text-align: center;
   margin: 30px auto;
+  color: #673e07;
+  font-size: 14px;
+}
+.App footer a {
+  color: #7f531a;
+  font-weight: 500;
 }

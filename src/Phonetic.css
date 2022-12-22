@@ -1,10 +1,10 @@
 .Phonetic {
-  height: 60px;
+  margin: 20px 0;
 }
 .Phonetic a {
   text-decoration: none;
-  color: rgb(133, 15, 21);
-  border: 1px solid rgb(245, 238, 239);
+  color: rgba(102, 96, 121, 0.894);
+  border: 1px solid rgb(115, 188, 245);
   border-radius: 10%;
   padding: 5px;
   display: inline-block;
@@ -18,7 +18,7 @@
 }
 .Phonetic .text {
   margin-left: 10px;
+  color: rgb(115, 188, 245);
   line-height: 1.5;
   font-size: 17px;
-  opacity: 0.7;
 }

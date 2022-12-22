@@ -32,11 +32,11 @@ export default function Dictionary() {
     return (
       <div className="Dictionary">
         <section>
+          <h4>What word you wanna look up?</h4>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              placeholder="Enter a word"
-              autoFocus={true}
+              defaultValue={keyword}
               onChange={handleKeywordChange}
             />
           </form>{" "}

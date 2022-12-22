@@ -26,6 +26,7 @@
 .Dictionary h4 {
   font-size: 18px;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .Dictionary form {
@@ -35,13 +36,14 @@
 }
 .Dictionary input {
   width: 100%;
-  padding: 12px 5px;
+  padding: 12px 15px;
   color: rgba(102, 96, 121, 0.894);
   font-size: 16px;
   font-weight: bold;
   border-radius: 6px;
   border: 1px solid #ddd;
   padding-right: 40px;
+  background: rgba(255, 255, 255, 0.844);
 }
 .Dictionary input:focus {
   box-shadow: 0 0 0 0.25rem rgba(227, 128, 57, 0.25);
@@ -49,7 +51,7 @@
 }
 .Dictionary .searchicon {
   position: absolute;
-  right: 10px;
+  right: 15px;
 }
 
 .Dictionary ul {

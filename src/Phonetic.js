@@ -5,13 +5,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 
 export default function Phonetic(props) {
+  function playAudio(event) {
+    let audio = new Audio(props.phonetic.audio);
+    event.preventDefault();
+    audio.play();
+  }
   if (props.phonetic.audio) {
     return (
       <div className="Phonetic">
-        <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-         <FontAwesomeIcon icon={faCirclePlay} />
-        </a>{" "}
-        
+        <a href={props.phonetic.audio}>
+          <FontAwesomeIcon icon={faCirclePlay} onClick={playAudio} />
+        </a>
         <span className="text">{props.phonetic.text}</span>
       </div>
     );

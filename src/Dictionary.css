@@ -34,7 +34,7 @@
   align-items: center;
   position: relative;
 }
-.Dictionary input {
+.Dictionary .textin {
   width: 100%;
   padding: 12px 15px;
   color: rgba(102, 96, 121, 0.894);
@@ -45,13 +45,21 @@
   padding-right: 40px;
   background: rgba(255, 255, 255, 0.844);
 }
-.Dictionary input:focus {
+.Dictionary .textin:focus {
   box-shadow: 0 0 0 0.25rem rgba(227, 128, 57, 0.25);
   outline: 0;
 }
-.Dictionary .searchicon {
+
+.Dictionary button {
   position: absolute;
   right: 15px;
+  background: white;
+  border: none;
+  line-height: 1;
+}
+.Dictionary .searchicon {
+  font-size: 30px;
+  color: rgb(108, 92, 92);
 }
 
 .Dictionary ul {

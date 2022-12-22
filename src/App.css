@@ -1,7 +1,9 @@
+body {
+  background: rgba(175, 228, 226, 0.428);
+  color: rgb(181, 56, 10);
+}
 .App header {
-  text-align: center;
-  display: block;
-  margin: 30px auto;
+  margin: 30px 0;
 }
 .App h1 {
   font-size: 44px;

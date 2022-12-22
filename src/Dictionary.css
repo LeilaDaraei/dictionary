@@ -5,3 +5,23 @@
 .Dictionary {
   text-align: left;
 }
+.Dictionary section {
+  background: rgba(94, 139, 139, 0.34);
+  margin: 10px 0;
+  padding: 10px;
+  color: rgb(219, 12, 43);
+  border-radius: 6px;
+  box-shadow: 0px 10px 10px rgba(0 0 0/ 10%);
+}
+.Dictionary input {
+  width: 100%;
+  padding: 5px;
+  color: #333;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.Dictionary h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}

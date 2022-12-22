@@ -47,11 +47,12 @@ export default function Dictionary() {
           <h4>What word you wanna look up?</h4>
           <form onSubmit={handleSubmit}>
             <input
-              type="search"
+              type="text"
               defaultValue={keyword}
               autoFocus={true}
               onChange={handleKeywordChange}
             />
+            <span className="material-symbols-outlined searchicon">search</span>
           </form>{" "}
         </section>
         <Results results={results} />

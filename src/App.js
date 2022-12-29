@@ -25,7 +25,7 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="text-center">
-          Coded by Leila Daraei and is{" "}
+          Coded by <a href="https://daraei.me/">Leila Daraei</a> and is{" "}
           <a href="https://github.com/LeilaDaraei/dictionary">
             open-sourced on GitHub
           </a>
